@@ -1,0 +1,101 @@
+body{
+    display: contents;
+}
+
+.navbar{
+    float: right; /* 오른쪽 정렬 */
+    margin: 10px; /* 4방향에 20px 공간 */
+}
+
+.nav-item{
+    text-decoration: none; /* 링크 밑줄을 지움 */
+    color: #000; /* 텍스트 컬러 검은색 */
+    margin-right: 10px; /* 오른쪽으로 10px */
+}
+
+.nav-item2{
+    color: #2600ff; /* 텍스트 컬러 파란색 */
+}
+
+.nav-item:hover{
+    text-decoration: underline; /* 마우스 갖다대면 밑줄 생김 */
+}
+
+.main{
+    margin-top: 300px;
+    text-align: center; /* 가운데 정렬 */
+}
+
+.input-area{
+    margin-top: 20px;
+}
+
+.input-box{
+    width: 584px;
+    height: 46px;
+    border-radius: 24px; /* 모서리를 둥글게 함 */
+    border: 1px solid #dfe1e5;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.search-icon{
+    position: relative;
+    left: 40px;
+    color: #9aa0a6;
+}
+
+.mic-icon{
+    position: relative;
+    right: 40px;
+    color: #2a8deb;
+}
+
+.button-area{
+    padding-top: 18px;
+}
+
+.button-style{
+    height: 36px;
+    background-color: #f8f9fA;
+    border: 1px solid #f8f9fA;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 15px;
+    margin: 11px 4px;
+}
+
+.button-style:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.footer{
+    position: absolute; /* absolute를 쓰면 컨텐츠 사이즈만큼 줄어듦 */
+    bottom: 0px;
+    background: #f2f2f2;
+    width: 100%; /* 줄어든 사이즈를 복구 */
+}
+
+.fitst-line{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0; /* 밑에만 선을 긋는다는 뜻 */
+    font-size: 15px;
+    color: rgba(0,0,0,.54); /* 글자색 */
+}
+
+.second-line{
+    padding: 15px 30px;
+}
+
+.second-line-second{
+    float: right;
+}
+
+.second-line-text-color{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(0,0,0,.54); /* 글자색 */
+}
